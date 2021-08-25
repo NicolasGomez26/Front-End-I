@@ -1,0 +1,21 @@
+$colorPrincipal:#E5E5E5;
+$colorSecundario:#C4C4C4;
+$colorFont:#005677;
+$fontPrincipal:'Roboto', sans-serif;;
+body{font-family: $fontPrincipal; 
+    header{display: flex; background-color: $colorPrincipal; flex-direction: column; align-items: center; justify-content: space-between;
+        h1{color: $colorFont ;background-color: $colorSecundario;width: 100%;text-align: center;letter-spacing: 0.5rem;}
+        img{padding: 1rem;}
+    }
+    .centro{
+        display: flex;flex-direction: column;align-items: center;padding: 5rem; width: 90%; margin-left: auto; margin-right: auto;
+        .hijos{ width: 100%;
+            h3{color: $colorFont;padding: 0.2rem;background-color: $colorSecundario;}
+            .cursiva{font-weight: bold;font-style: italic;}
+        }
+    }
+    footer{text-align: center;background-color: $colorFont;color:$colorPrincipal; padding: 1rem;display: flex;justify-content: center;
+        img{padding: 0 0.9rem 0 0.9rem ;width: 3%;}
+    }
+}
+*{box-sizing: border-box;padding: 0;margin: 0;}

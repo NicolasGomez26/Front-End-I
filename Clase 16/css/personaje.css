@@ -1,0 +1,17 @@
+.desc {background: #1CD1B0;width: 100%;height: 38px;font-family: 'Roboto', sans-serif;padding: 10px;}
+.heroes{width: 100%;height: 101px;background: #00669F;position:absolute; font-family: 'Roboto', sans-serif;padding: 25px;color: white;display: flex;align-items: center;font-size: 2rem;z-index: 1;}
+* {box-sizing: border-box;margin: 0;padding: 0;font-family: 'Roboto'}
+footer{background: #00669F; color: white;font-size: 1rem; padding: 12px;text-align: center;position: relative;width: 100%;margin-top:0;padding-top: 0;z-index: 1;top:418px}
+*{margin: 0;padding: 0;font-family: 'Roboto'}
+.padre{display: flex;flex-direction: column; align-items: center;width: 550px;height: 500px;margin-left: auto;margin-right: auto;top: 300px;position: relative;border-radius: 15px;background-color: white;position: relative;padding-top: 100px;}
+.harley{width: 160px;height: 160px;border-radius: 50%;bottom: 370px;position: absolute;}
+.corazon{width:39px;height: 35px;position: absolute;left: 20px;top: 30px;}
+.armas{width: 60px;height: 60px;}
+.arma{display: flex;}
+.volver{background: #2C0187;width: 100%;text-align: center;height: 87px;color: white;text-decoration: none;padding: 10px;font-size: 1.5rem;border-radius: 0 0 15px 15px;}
+main{background-image: url(../img/fondoharley.png);background-repeat: no-repeat;background-size:100%;width: 100%;height: 100%; position: absolute;}
+body{background-image: url(../img/fondoharley.png);background-repeat: no-repeat;background-size: cover;}
+.padre h2{color: #2C0187;text-decoration: underline;padding:25px;}
+.padre p{padding:30px;}
+.padre p a{text-decoration: none;color:#2C0187;}
+.armas{margin: 15px;}

@@ -1,0 +1,90 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #E5E5E5;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header h1 {
+  color: #005677;
+  background-color: #C4C4C4;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.5rem;
+}
+
+body header img {
+  padding: 1rem;
+}
+
+body .centro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body .centro .hijos {
+  width: 100%;
+}
+
+body .centro .hijos h3 {
+  color: #005677;
+  padding: 0.2rem;
+  background-color: #C4C4C4;
+}
+
+body .centro .hijos .cursiva {
+  font-weight: bold;
+  font-style: italic;
+}
+
+body footer {
+  text-align: center;
+  background-color: #005677;
+  color: #E5E5E5;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body footer img {
+  padding: 0 0.8rem 0 0.8rem;
+  width: 3%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=styles.css.map */

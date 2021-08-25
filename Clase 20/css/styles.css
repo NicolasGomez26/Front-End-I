@@ -1,0 +1,60 @@
+*{box-sizing: border-box;margin: 0;padding: 0;font-family: 'Roboto', sans-serif;}
+body{background-color: #F3F3F3;}
+.header{display: flex;padding: 1rem;width: 100%;background-color: black;justify-content: space-between;}
+.logo{width: 90%;height: 40px;}
+.nav{width: 90%;height: 27px;}
+.header nav{color: white;display: none; }
+.carrito{display: none;}
+    .header nav ul{display: flex;padding: 1rem;}
+    .header nav ul li{padding: 1rem;}
+h1 span{color:#D01418;}
+h1{color: white;width: 85%;font-size: 2rem;padding: 1rem;height: 130px;text-align: center;}
+.padre1{background-image:url(../img/fondo.png) ;background-repeat: no-repeat;background-size: cover;height: 350px;display: flex;flex-direction: column;justify-content: space-around;align-items: center;position: relative;}
+button{color: white;background-color: #D01418;width: 60%;height: 61px;font-size: 1.4em;border-radius: 10px;border: none;}
+.padre2{display: flex;flex-direction: column;align-items:center;width: 100%;margin-left: auto;margin-right: auto;background-color: #F3F3F3;height: 1000px;}
+.portadas{width: 65%;padding: 1.5rem;}
+.juegos{display: flex;flex-direction: column;align-items: center;background-color: white;width: 70%;margin-bottom: 1.5rem;height:300px;border-radius: 8px;margin: 0 auto 0 auto;}
+.padre2 h2{padding: 1rem;}
+.precios{padding: 1rem 1rem 1rem 1.5rem;border-color:grey transparent transparent transparent;border-style:solid;border-width:1px;width: 100%;}
+.envios{color:#619D00;font-size: 0.8rem;}
+.precios p{font-size: 0.9rem; font-weight: bold;}
+h4{padding: 0.5rem 0 0.5rem 0;font-size: 1.3rem;font-weight: normal;}
+.estrellas{width: 85%;border-radius: 10px;padding:0.5rem;}
+.padre3{display: flex;flex-direction: column;align-items:center;width: 100%;margin-left: auto;margin-right: auto;background-color: #F3F3F3;height: 300px;padding: 1rem;position: relative;}
+.padre3 h2{padding:1rem;font-weight: normal;}
+.silla{position: absolute;top: 120px;right:70px;color: white;opacity: 0.6;}
+.compu{top: 225px;right:70px;position: absolute;color: white;opacity: 0.6;}
+footer{display: flex;flex-direction: column;color: white;background-color: black;align-items: center;width: 100%;justify-content: center;}
+.logofooter{width: 50%;height: 70px;padding: 1rem 0 1rem 0;}
+.redes{width: 50%;height: 30px;padding: 0 0.8rem 0 0.8rem;}
+.derechos{background-color: #C4C4C4;width: 100%;text-align: center;padding: 0.3rem;height: 25px;color: black;font-size: 0.8rem;}
+.social{display: flex;padding: 1rem ;justify-content: space-around;width: 70%;}
+@media (min-width:800px){
+    .padre1 button{
+        width: 30vh;margin-bottom: 14rem;
+    }
+    .padre1 h1{margin-top: 5rem;}
+    .padre1{background-size: cover;height: 500px;}
+    .logo{margin: 1rem;}
+    .nav{
+        display: none;
+    }
+    .padre2 h2{font-size: 3rem;}
+    .header nav{display: block}
+    .carrito{display: block;width: 5vh;height: 5vh;top: 1rem;position: relative;right: 1rem;}
+    .navegador{display: flex;justify-content: space-around;}
+    .padre2{display: flex;position: relative;top: 10rem;}
+    .games{display: flex;flex-direction: row;}
+    .juegos{height: 370px;margin: 0 3rem;}
+    .padre3{display: flex;flex-direction: row;align-items: center;justify-content: center;position: relative;bottom: 10rem;}
+    .padre3 h2{position: absolute;bottom: 20rem; margin-left: auto;margin-right: auto;font-size: 3rem;font-weight:bold}
+    .silla{right: 70rem;font-size: 2rem;font-weight: bold;top: 10rem;}
+    .compu{right:20rem;font-size: 2rem;font-weight: bold;top: 10rem;}
+    .estrellas{width: 40%;margin: 2rem;border-radius: 25px;}
+    footer{display: flex;flex-direction: row; height: 200px;justify-content: space-between;}
+    .derechos{font-size: 1rem;}
+    .logofooter{width: 15%;height: 10vh;margin-left: 12rem;}
+    .foot{margin-right: 12rem;width: 20%;text-align: center;height: 10vh;}
+    .foot h2{position: relative;right:3.3rem}
+    .redes{height: 3rem;}
+}

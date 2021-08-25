@@ -1,0 +1,11 @@
+.titulo {color:#005677;background: #C4C4C4; letter-spacing:0.15em}
+.Datos {color: #005677; background-color: #C4C4C4; font-family: "'Times New Roman', Times, serif"; letter-spacing:0.15em }
+#gris{background: #E5E5E5;}
+.cursiva {font-style: italic; font-weight: bold;}
+.numero{color: white;font-family: 'Times New Roman', Times, serif;letter-spacing:0.15em}
+#pie{background: #005677;}
+.centro {margin: 9px 300px;}
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}

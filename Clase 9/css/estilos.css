@@ -1,0 +1,14 @@
+.padre {background-image:url('../img/banner.png'); height: 509px;text-align:center;background-size: cover;}
+header{
+    background: #F0A83E;
+    color: white
+    ;}
+.header{background-color: black;}
+.placer{color:saddlebrown}
+p{color: #F0A83E;}
+.contacto{ width: 66px;height: 66px;}
+.footerinfo{ color: grey;}
+footer{background: #3C2313;
+    ;}
+h4{color: aliceblue;}
+.derechos{background-color:#F0A83E; color: aliceblue;}

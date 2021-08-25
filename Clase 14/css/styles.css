@@ -1,0 +1,128 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header h5{background: #D1891C;
+    padding: 5px;
+}
+.header h1{background: #00669F;
+    color: white;
+    font-weight: lighter;
+    padding: 10px;
+}
+.padre{
+    display: flex;
+    flex-direction: column; 
+    margin: 10px;
+    align-items: center;
+}
+.super{
+    width: 250px;
+    height: 480px;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    background: #F3F3F3;
+    position: relative;
+}
+.foto{width: 100px;
+    height: 100px;
+    margin: 0px;
+    border-radius: 50%;
+    margin-top: 80px;
+}
+.padre p{
+    text-align: left;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+.boton{
+    width:150px;
+    height: 30px;
+    background-color: #00669F;
+    padding: 0.4rem;
+    margin-top: 10px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left:-70px;
+    color: white;
+    border-radius: 1rem;
+}
+.bat{
+    background-image: url('../img/fontobat.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10% 10% 0% 0%;
+}
+.harley{
+    background-image: url('../img/fondoharley.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10% 10% 0% 0%;}
+.superman{
+    background-image: url('../img/fondosuper.png');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 10% 10% 0% 0%;}
+.mujer{   
+    background-image: url('../img/fondomaravilla.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10% 10% 0% 0%;}
+.padre h2{
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+footer{
+    background-color: #00669F;
+    height: 90px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
+.logo{width: 100px;margin: 10px;}
+.fas{
+    position: absolute;
+    color: red;
+    bottom: 420px;
+    left: 25px;
+    width: 30px;
+    height: 30px;
+}
+
+@media(min-width:800px){
+    .padre{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 92%;
+    justify-content: space-around;
+    flex-wrap: wrap;}
+    .super{width: 32%;
+    height: 750px;
+    left: 100px;}
+    .foto{width: 100px;
+    height: 100px;
+    margin-top: 100px;}
+    .super p{font-size: 1.3rem;}
+    .fas{margin-bottom: 250px; 
+width: 30px;
+height: 30px;}}
+
+@media(min-width:1200px){
+    .foto{width: 250px;
+    height: 250px;
+    margin-top: 200px;}
+    .fas{width: 50px;
+    height: 50px;}
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"></head>
+        <link rel="stylesheet" href="css/form.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <meta charset="UTF-8">
+        <title>Clase 17</title>
+    <body>
+        <header>
+            <section>
+                <h5 class="desc">20% de descuento en todos los productos!</h5>
+                <article class="heroes">
+                <img src="img/logo.png" alt="logo" class="logo">
+                <h1>The B&Gs</h1>
+                </article>
+            <article class="nav">
+                <nav >
+                    <ul type="none">
+                        <li><a href="Contacto.html">Contacto</a></li>
+                        <li><a href="Registrarme.html">Registrarme</a></li>
+                        <li><a href="Ingresar.html">Ingresar</a></li>
+                    </ul>
+                </nav>
+            </article>
+            </section>
+        </header>
+        <section class="padre">
+            <h2>Añadí tu super!</h2>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+            <form action="#" method="POST">
+                <article>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" class="nombre" id="nombre"> 
+                    
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="fecha" class="fecha" id="fecha"> <br>
+                    <textarea name="descripcion" cols="30" rows="10" placeholder="Descripcion"></textarea> 
+                </article>
+                <article>
+                    <label for="especie">Selecciona Tu Especie</label>
+                    <select name="especie" id="especie">
+                        <option value="especie" class="especie" >Especie</option>
+                        <option value="Desconocido">Desconocido</option>
+                        <option value="Inhumano">Inhumano</option>
+                        <option value="Mutante">Mutante</option>
+                        <option value="Humano">Humano</option>
+                    </select> 
+                    <label for="foto">Agregar Foto</label>
+                    <input type="file" name="imagen" class="imagen" id="foto" class="foto">
+                    <article class="check">
+                    <label for="check">Poderes</label>
+                    <label for="check" class="aa"> <input type="checkbox"  value="Volar" name="poderes">Volar</label>
+                    <label for="check" class="aa"> <input type="checkbox"  value="Superinteligencia" name="poderes">Super Inteligencia</label>
+                    <label for="check" class="aa"> <input type="checkbox" value="Vista de Rayo Láser" name="poderes">Vista de rayo láser</label>
+                    <label for="check" class="aa"> <input type="checkbox"  value="Billetera Gorda" name="poderes">Billetera Grande</label>
+                    <hr>
+                    <label for="radio">Tipo de Personaje</label>
+                    <label for="radio" class="aa"><input type="radio" class="radio" value="">Heroe/Heroína</label>
+                    <label for="radio" class="aa"><input type="radio" class="radio" value="">Villano/Villana</label>
+                </article>
+                    </article>
+            </form>
+            <button>Añadir</button>
+        </section>
+        <footer>
+            <p>Todos los derechos reservados a FRONT END 1</p>
+        </footer>
+    </body>
+</html>
